@@ -1,0 +1,20 @@
+.searchform {
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchform form input {
+  border: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: large;
+}
+.searchform form button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  color: white;
+  cursor: pointer;
+}
