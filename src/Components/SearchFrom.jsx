@@ -71,7 +71,7 @@ const SearchForm = () => {
       {icon.src ? <IconImage image={icon.src} alt={icon.alt} /> : null}
 
       {loading ? (
-        <p>...Loading</p>
+        <p>Loading data...</p>
       ) : data !== undefined ? (
         <WeatherData data={data} />
       ) : null}
